@@ -47,4 +47,4 @@ Resources:
               - ses:SendBulkTemplatedEmail
             Resource:
               - !Ref SendIdentity
-              - !Sub "arn:aws:${AWS::Region}:${AWS::AccountId}:template/*"
+              - !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:template/*"
